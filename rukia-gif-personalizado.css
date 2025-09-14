@@ -1,0 +1,52 @@
+/**
+ * @name Chika vs Bedrock - GIF Personalizado
+ * @author Gui Lindo
+ * @version 1.0
+ * @description Cópia do tema Chika com meu GIF
+ */
+
+/* Importações originais de fontes ou resets */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Variáveis do tema */
+:root {
+    --server-listing-width: 64px;
+    --main-theme-color: rgb(67, 181, 129);
+    --theme-transparency: rgba(0, 0, 0, 0.8);
+    --mention-color: rgba(250, 166, 26, 0.05);
+    --mention-sider: rgba(250, 166, 26, 1);
+    --mention-hover-color: rgba(250, 166, 26, 0.08);
+    --category-hover-color: rgb(60, 202, 138);
+    --unread-server-animation: rainbow;
+    --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+    --video-screen-button-foreground-color: white;
+    --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+    --video-screen-button-foreground-hovor-color: white;
+    --member-listing-role-color: var(--main-theme-color);
+
+    /* Aqui substituímos o GIF original pelo seu GIF */
+    --body-background-image: url('https://i.imgur.com/SMLADh1.gif');
+    --body-background-size: cover;
+    --body-background-position: center;
+    --body-background-repeat: no-repeat;
+}
+
+/* Aplica o fundo do GIF na tela inteira */
+body, .app-1q1i1E {
+    background-image: var(--body-background-image) !important;
+    background-size: var(--body-background-size) !important;
+    background-position: var(--body-background-position) !important;
+    background-repeat: var(--body-background-repeat) !important;
+    background-attachment: fixed !important;
+}
+
+/* Transparência das janelas do Discord */
+.container-3baos1 {
+    background-color: rgba(0,0,0,0.5) !important;
+    border-radius: 10px;
+}
+
+/* Mantém textos legíveis */
+* {
+    color: #ffffff !important;
+}
